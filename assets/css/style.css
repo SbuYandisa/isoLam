@@ -653,6 +653,7 @@ hr {
   .border-btn {
     display: none;
   }
+
 }
 
 /* line 387, */
@@ -3416,7 +3417,6 @@ hr {
 
 /* line 261, */
 .mobile_menu .slicknav_menu {
-  background: transparent;
   margin-top: 0px !important;
 }
 
@@ -3428,6 +3428,7 @@ hr {
 /* line 267, */
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
   background-color: #ffe70a !important;
+  margin-top: -20px;
 }
 
 /* line 271, */
@@ -3439,6 +3440,7 @@ hr {
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
   color: #ffe70a;
+
 }
 
 /* line 278, */
@@ -3581,6 +3583,18 @@ hr {
   /* line 64, */
   .slider-area .hero__caption span {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width:991px){
+  .header-btn {
+    padding: 30px 30px;
+    border-radius: 40px;
+    width: 100px;
+    height: auto;
+  }
+  .about-image{
+    display:none;
   }
 }
 
@@ -6649,8 +6663,8 @@ hr {
 
 /* line 61, */
 .form-contact .form-control {
-  border: 1px solid #e5e6e9;
-  border-radius: 0px;
+  border: 2px solid #acacac;
+  border-radius: 20px;
   height: 48px;
   padding-left: 18px;
   font-size: 13px;

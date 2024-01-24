@@ -13,8 +13,8 @@
 
 </head>
 
-<body id="section_1">
-
+<body>
+<!--header starts here-->
     <header class="site-header">
         <div class="container">
             <div class="row">
@@ -34,18 +34,19 @@
                     <div class="col-lg-auto">
                         <ul class="social-icon">
                             <li class="social-icon-item">
-                                <a href="https://www.facebook.com/isolam.za/" target="_blank" class="social-icon-link bi-facebook"></a>
+                                <a href="#" class="social-icon-link bi-twitter"></a>
                             </li>
 
                             <li class="social-icon-item">
-                                <a href="https://www.instagram.com/isolam_sa/" target="_blank" class="social-icon-link bi-instagram"></a>
+                                <a href="#" class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link bi-instagram"></a>
                             </li>
 
                             <li class="social-icon-item">
                                 <a href="#" class="social-icon-link bi-whatsapp"></a>
-                            </li>
-                            <li class="social-icon-item">
-                                <a href="https://www.linkedin.com/company/isolam" target="_blank" class="social-icon-link bi-linkedin"></a>
                             </li>
                         </ul>
                     </div>
@@ -53,7 +54,9 @@
             </div>
         </div>
     </header>
+<!--header ends here-->
 
+<!--navigation bar starts here-->
     <nav class="navbar navbar-expand-lg bg-light shadow-lg">
         <div class="container" style="background-color: #1a1919; border-radius: 30px;">
             <a class="navbar-brand" href="index.html">
@@ -80,21 +83,21 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="programs.html"
+                        <a class="nav-link dropdown-toggle" href="programes.html"
                             id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Our Programs
                         </a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="programs.html#tutoring">Tutoring</a></li>
-                            <li><a class="dropdown-item" href="programs.html#mentorship">Mentorship</a></li>
-                            <li><a class="dropdown-item" href="programs.html#career_guidance">Career Guidance</a></li>
+                            <li><a class="dropdown-item" href="#tutoring">Tutoring</a></li>
+                            <li><a class="dropdown-item" href="#mentorship">Mentorship</a></li>
+                            <li><a class="dropdown-item" href="#career_guidance">Career Guidance</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="resources.html">Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#top">Volunteer</a>
+                        <a class="nav-link" href="volunteer.html">Volunteer</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="news.html"
@@ -119,76 +122,43 @@
             </div>
         </div>
     </nav>
+<!--navigation bar ends here-->
 
     <main>
-        <section class="volunteer-section section-padding">
-            <div class="container">
-                <div class="row">
+<!--section 1 starts here-->
+<section class="cta-section section-padding section-bg" id="tutoring">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <h2>Tutoring</h2>
+        </div>
+    </div>
+</section>  
+<!--section 1 ends here-->
 
-                    <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-4">Volunteer</h2>
+<!--section 2 starts here-->
+<section class="cta-section section-padding section-bg" id="mentorship">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <h2>Mentorship</h2>
+        </div>
+    </div>
+</section> 
+<!--section 2 ends here-->
 
-                        <form class="custom-form volunteer-form mb-5 mb-lg-0" action="#" method="post" role="form">
-                            <h3 class="mb-4">Become a volunteer today</h3>
-
-                            <div class="row">
-                                <div class="col-lg-6 col-12">
-                                    <input type="text" name="volunteer-name" id="volunteer-name" class="form-control"
-                                        placeholder="Name and Surname" required>
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <input type="email" name="volunteer-email" id="volunteer-email"
-                                        pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address"
-                                        required>
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <input type="text" name="volunteer-subject" id="volunteer-subject"
-                                        class="form-control" placeholder="Subject" required>
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <div class="input-group input-group-file">
-                                        <input type="file" class="form-control" id="inputGroupFile02">
-
-                                        <label class="input-group-text" for="inputGroupFile02">Upload your CV</label>
-
-                                        <i class="bi-cloud-arrow-up ms-auto"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message"
-                                placeholder="Comment (Optional)"></textarea>
-
-                            <button type="submit" class="form-control">Submit</button>
-                        </form>
-                    </div>
-
-                    <div class="col-lg-6 col-12">
-                        <img src="images/volunteering.jpg"
-                            class="volunteer-image img-fluid" alt="">
-
-                        <div class="custom-block-body text-center">
-                            <h4 class="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
-
-                            <p class="text-white">
-                                Engaging in volunteer opportunities with us provides the chance to contribute to realizing another 
-                                student's aspirations. Our volunteering program offers skill enhancement, references for future endeavors, 
-                                and the opportunity to make a meaningful impact in various schools across South Africa. If you have an interest 
-                                in working with high school students or administrative tasks, reach out to us, and we will help identify the ideal position for you.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+<!--newsletter starts here-->
+<section class="cta-section section-padding section-bg" id="career_guidance">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <h2>Career Guidance</h2>
+        </div>
+    </div>
+</section> 
+<!--newsletter starts here-->
+        
     </main>
 
-   <!--footer starts here-->
-   <footer class="site-footer">
+ <!--footer starts here-->
+ <footer class="site-footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-12 mb-4">
@@ -205,7 +175,7 @@
 
                     <li class="footer-menu-item"><a href="resources.html" class="footer-menu-link">Resources</a></li>
 
-                    <li class="footer-menu-item"><a href="#top" class="footer-menu-link">Become a volunteer</a></li>
+                    <li class="footer-menu-item"><a href="volunteer.html" class="footer-menu-link">Become a volunteer</a></li>
 
                     <li class="footer-menu-item"><a href="partner.html" class="footer-menu-link">Partner with us</a></li>
                 </ul>
@@ -273,8 +243,6 @@
         </div>
     </div>
 </footer>
-<!--footer ends here-->
-
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

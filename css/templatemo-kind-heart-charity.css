@@ -267,6 +267,15 @@ strong {
   padding: 40px;
 }
 
+.custom-text-box,
+.about{
+  width: 600px;
+}
+
+.found-box{
+  width: 100px;
+}
+
 .custom-text-box-image {
   border-radius: var(--border-radius-medium);
   width: 100%;
@@ -321,7 +330,7 @@ strong {
 
 .custom-btn:hover {
   background: var(--primary-color);
-  color: var(--white-color);
+  color: #000000;
 }
 
 .custom-border-btn {
@@ -898,31 +907,6 @@ blockquote::before {
 .cta-section {
   position: relative;
   overflow: hidden;
-}
-
-.cta-section::before {
-  content: "";
-  background-color: var(--primary-color);
-  border-radius: 50%;
-  position: absolute;
-  top: -100px;
-  left: -30px;
-  margin: auto;
-  width: 200px;
-  height: 200px;
-}
-
-.cta-section::after {
-  content: "";
-  border: 20px solid var(--custom-btn-bg-color);
-  border-radius: 50%;
-  position: absolute;
-  bottom: -100px;
-  right: 0;
-  left: 0;
-  margin: auto;
-  width: 150px;
-  height: 150px;
 }
 
 
@@ -1537,7 +1521,11 @@ blockquote::before {
   .volunteer-form {
     padding: 30px;
   }
-
+  
+  .custom-text-box,
+  .about{
+    width: 500px;
+  }
   .counter-number, 
   .counter-number-text {
     font-size: var(--h2-font-size);
@@ -1642,5 +1630,9 @@ blockquote::before {
   .donate-form {
     padding: 25px;
   }
+
+  .custom-text-box,
+  .about{
+    width: 300px;
 }
 

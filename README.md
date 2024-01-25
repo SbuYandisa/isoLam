@@ -9,6 +9,7 @@ This repository contains the source code for the website of Isolam. The website 
 4. [Getting Started](#getting-started)
 
 ## File Structure
+.
 ├── css
 │ ├── bootstrap.min.css
 │ ├── bootstrap-icons.css
@@ -27,12 +28,12 @@ This repository contains the source code for the website of Isolam. The website 
 │ │ └── Metropolis-SemiBold.woff2
 ├── images
 ├── js
-│   └── bootstrap.min.js
-|   ├── click-scroll.js
-|   ├── counter.js
-|   |── custom.js
-|   ├── jquery.min.js
-|   ├── jquery.sticky.js
+│ ├── bootstrap.min.js
+│ ├── click-scroll.js
+│ ├── counter.js
+│ ├── custom.js
+│ ├── jquery.min.js
+│ └── jquery.sticky.js
 ├── about.html
 ├── donate.html
 ├── index.html
@@ -43,7 +44,6 @@ This repository contains the source code for the website of Isolam. The website 
 ├── resources.html
 ├── team.html
 └── volunteer.html
-
 
 ## Pages
 

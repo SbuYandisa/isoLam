@@ -9,7 +9,6 @@ This repository contains the source code for the website of Isolam. The website 
 4. [Getting Started](#getting-started)
 
 ## File Structure
-.
 ├── css
 │ ├── bootstrap.min.css
 │ ├── bootstrap-icons.css

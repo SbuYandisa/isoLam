@@ -720,18 +720,6 @@ strong {
   position: relative;
   overflow: hidden;
 }
-
-.volunteer-section::after {
-  content: "";
-  background: var(--primary-color);
-  border-radius: 50%;
-  position: absolute;
-  bottom: -110px;
-  right: -80px;
-  width: 350px;
-  height: 350px;
-}
-
 .volunteer-form {
   background: var(--white-color);
   border-radius: var(--border-radius-medium);

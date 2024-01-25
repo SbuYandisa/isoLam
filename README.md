@@ -3,47 +3,9 @@
 This repository contains the source code for the website of Isolam. The website is built using HTML, CSS/Bootstrap, and JavaScript to provide information about the organization, its programs, and opportunities for engagement.
 
 ## Table of Contents
-1. [File Structure](#file-structure)
-2. [Pages](#pages)
-3. [Folders](#folders)
-4. [Getting Started](#getting-started)
-
-## File Structure
-.
-├── ./css/
-│   ├── ./css/bootstrap.min.css
-│   ├── ./css/bootstrap-icons.css
-│   └── ./css/isolam-styles.css
-├── ./fonts/
-│   ├── ./fonts/bootstrap-icons.woff
-│   ├── ./fonts/bootstrap-icons.woff2
-│   └── ./fonts/Metropolis-Bold/
-│       ├── ./fonts/Metropolis-Bold/Metropolis-Bold.woff
-│       ├── ./fonts/Metropolis-Bold/Metropolis-Bold.woff2
-│       ├── ./fonts/Metropolis-Bold/Metropolis-Light.woff
-│       ├── ./fonts/Metropolis-Bold/Metropolis-Light.woff2
-│       ├── ./fonts/Metropolis-Bold/Metropolis-Regular.woff
-│       ├── ./fonts/Metropolis-Bold/Metropolis-Regular.woff2
-│       ├── ./fonts/Metropolis-Bold/Metropolis-SemiBold.woff
-│       └── ./fonts/Metropolis-Bold/Metropolis-SemiBold.woff2
-├── ./images
-├── ./js/
-│   ├── ./js/bootstrap.min.js
-│   ├── ./js/click-scroll.js
-│   ├── ./js/counter.js
-│   ├── ./js/custom.js
-│   ├── ./js/jquery.min.js
-│   └── ./js/jquery.sticky.js
-├── ./about.html
-├── ./donate.html
-├── ./index.html
-├── ./news.html
-├── ./partner.html
-├── ./programs.html
-├── ./register.html
-├── ./resources.html
-├── ./team.html
-└── ./volunteer.html!
+1. [Pages](#pages)
+2. [Folders](#folders)
+3. [Getting Started](#getting-started)
 
 ## Pages
 

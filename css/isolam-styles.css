@@ -198,6 +198,8 @@ strong {
   position: relative;
   overflow: hidden;
   transition: all 0.5s;
+  width: 300px;
+  height: auto;
 }
 
 .custom-block-wrap:hover {
@@ -351,7 +353,7 @@ strong {
   NAVIGATION              
 -----------------------------------------*/
 .navbar {
-  background: var(--white-color);
+  background: #000000;
   z-index: 9;
   padding-top: 0;
   padding-bottom: 0;
@@ -720,6 +722,18 @@ strong {
   position: relative;
   overflow: hidden;
 }
+
+.volunteer-section::after {
+  content: "";
+  background: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -110px;
+  right: -80px;
+  width: 350px;
+  height: 350px;
+}
+
 .volunteer-form {
   background: var(--white-color);
   border-radius: var(--border-radius-medium);

@@ -10,40 +10,40 @@ This repository contains the source code for the website of Isolam. The website 
 
 ## File Structure
 .
-├── css
-│ ├── bootstrap.min.css
-│ ├── bootstrap-icons.css
-│ └── isolam-styles.css
-├── fonts
-│ ├── bootstrap-icons.woff
-│ ├── bootstrap-icons.woff2
-│ ├── Metropolis-Bold
-│ │ ├── Metropolis-Bold.woff
-│ │ ├── Metropolis-Bold.woff2
-│ │ ├── Metropolis-Light.woff
-│ │ ├── Metropolis-Light.woff2
-│ │ ├── Metropolis-Regular.woff
-│ │ ├── Metropolis-Regular.woff2
-│ │ ├── Metropolis-SemiBold.woff
-│ │ └── Metropolis-SemiBold.woff2
-├── images
-├── js
-│ ├── bootstrap.min.js
-│ ├── click-scroll.js
-│ ├── counter.js
-│ ├── custom.js
-│ ├── jquery.min.js
-│ └── jquery.sticky.js
-├── about.html
-├── donate.html
-├── index.html
-├── news.html
-├── partner.html
-├── programs.html
-├── register.html
-├── resources.html
-├── team.html
-└── volunteer.html
+├── ./css/
+│   ├── ./css/bootstrap.min.css
+│   ├── ./css/bootstrap-icons.css
+│   └── ./css/isolam-styles.css
+├── ./fonts/
+│   ├── ./fonts/bootstrap-icons.woff
+│   ├── ./fonts/bootstrap-icons.woff2
+│   └── ./fonts/Metropolis-Bold/
+│       ├── ./fonts/Metropolis-Bold/Metropolis-Bold.woff
+│       ├── ./fonts/Metropolis-Bold/Metropolis-Bold.woff2
+│       ├── ./fonts/Metropolis-Bold/Metropolis-Light.woff
+│       ├── ./fonts/Metropolis-Bold/Metropolis-Light.woff2
+│       ├── ./fonts/Metropolis-Bold/Metropolis-Regular.woff
+│       ├── ./fonts/Metropolis-Bold/Metropolis-Regular.woff2
+│       ├── ./fonts/Metropolis-Bold/Metropolis-SemiBold.woff
+│       └── ./fonts/Metropolis-Bold/Metropolis-SemiBold.woff2
+├── ./images
+├── ./js/
+│   ├── ./js/bootstrap.min.js
+│   ├── ./js/click-scroll.js
+│   ├── ./js/counter.js
+│   ├── ./js/custom.js
+│   ├── ./js/jquery.min.js
+│   └── ./js/jquery.sticky.js
+├── ./about.html
+├── ./donate.html
+├── ./index.html
+├── ./news.html
+├── ./partner.html
+├── ./programs.html
+├── ./register.html
+├── ./resources.html
+├── ./team.html
+└── ./volunteer.html!
 
 ## Pages
 

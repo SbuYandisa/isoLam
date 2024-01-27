@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Isolam</title>
+    <!-- CSS FILES -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-icons.css" rel="stylesheet">
+    <link href="../css/isolam-styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="nav-placeholder">
+    </div>
+    <main>
+<!--about us start here-->
+<section class="section-padding section-bg" id="about">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6 col-12">
+                <div class="custom-text-box">
+                    <h2 class="mb-2">About Us</h2>
+
+                    <h5 class="mb-3">Isolam, Non-Profit Organization</h5>
+
+                    <p class="mb-0">
+                        Founded by a group of students who encountered diverse challenges throughout their academic journeys, 
+                        this initiative emerged from their collective experiences. Through mutual support from high school 
+                        to university, their objective is to positively influence the lives of fellow students, facilitating a 
+                        more assured and practical navigation of both academic and career paths.
+                    </p>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="found-box d-flex flex-wrap d-lg-block mb-lg-0">
+                            <div class="counter-thumb">
+                                <div class="d-flex">
+                                    <span class="counter-number" data-from="1" data-to="2020"
+                                        data-speed="1000"></span>
+                                    <span class="counter-number-text"></span>
+                                </div>
+
+                                <span class="counter-text">Founded</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="custom-text-box about mb-lg-0">
+                            <h5 class="mb-3">Backround Story</h5>
+                            <p>Navigating the selection of a suitable career path is a complex endeavor, as the choices made invariably
+                                influence one's life trajectory. Many students find themselves compelled to either take a agap year or persue
+                                courses at higher institutions that do not align with their true passions. This often arises from a lack of proper
+                                guidance, leading to instances of student dropout, academic exclusion, and the attaainment of qualifications that do not
+                                resonate with personal interests. in repsonse to these challenges, Isolam was established by a collective of individuals who
+                                underwent similar experiences during their academic journeys. Drawing from their mutual support system, cultivated through high
+                                school and university. The organisation is committed to effecting positve change in the lives of other students.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="custom-text-box mb-lg-0">
+                            <h5 class="mb-3">Mission</h5>
+                            <p>Our mission is to help high school students prepare for life at higher learning
+                                institutions. This includes assisting them in applying for admission and bursaries; and to
+                                equip them with all the necessary tools they need to navigate life after high school, all under
+                                the guidance of graduates from various universities across South Africa.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="custom-text-box mb-lg-0">
+                            <h5 class="mb-3">Vision</h5>
+                            <p>
+                                Through the help of various sponsors and assistance from graduates, we hope to reach every student in South Africa and help develop 
+                                their careers, starting with assisting them to set goals and help them achieve these goals through tutoring, 
+                                mentorship programs, career guidance, and raising funds for their education. 
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+                <a href="../pages/team.html" class="custom-btn btn smoothscroll">Meet Our Team</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--about us ends here-->
+    </main>
+
+ <!--footer starts here-->
+ <div id="footer-placeholder"></div>
+ <!--footer ends here-->
+     <!-- JAVASCRIPT FILES -->
+     <script src="../js/jquery.min.js"></script>
+     <script src="../js/bootstrap.min.js"></script>
+     <script src="../js/jquery.sticky.js"></script>
+     <script src="../js/click-scroll.js"></script>
+     <script src="../js/counter.js"></script>
+     <script src="../js/custom.js"></script>
+     <script >
+         $.get("../shared components/navigation.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+ 
+        $.get("../shared components/footer.html", function(data){
+             $("#footer-placeholder").replaceWith(data);
+         });
+    </script>
+
+</body>
+
+</html>

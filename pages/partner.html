@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Isolam</title>
+    <!-- CSS FILES -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-icons.css" rel="stylesheet">
+    <link href="../css/isolam-styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="nav-placeholder">
+    </div>
+    <main>
+<!--section 1 starts here-->
+<section class="cta-section section-padding section-bg" id="tutoring">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <h2>Partner With Us</h2>
+        </div>
+    </div>
+</section>  
+<!--section 1 ends here-->
+        
+    </main>
+
+ <!--footer starts here-->
+ <div id="footer-placeholder"></div>
+ <!--footer ends here-->
+     <!-- JAVASCRIPT FILES -->
+     <script src="../js/jquery.min.js"></script>
+     <script src="../js/bootstrap.min.js"></script>
+     <script src="../js/jquery.sticky.js"></script>
+     <script src="../js/click-scroll.js"></script>
+     <script src="../js/counter.js"></script>
+     <script src="../js/custom.js"></script>
+     <script >
+         $.get("../shared components/navigation.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+ 
+        $.get("../shared components/footer.html", function(data){
+             $("#footer-placeholder").replaceWith(data);
+         });
+    </script>
+
+</body>
+
+</html>

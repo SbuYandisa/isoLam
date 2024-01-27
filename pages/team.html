@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Isolam</title>
+    <!-- CSS FILES -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-icons.css" rel="stylesheet">
+    <link href="../css/isolam-styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="nav-placeholder">
+    </div>
+    <main>
+        <!--abou the team-->
+        <section class="about-section section-padding">
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-5 col-12">
+                        <img src="../images/Team/Zilungile.jpeg"
+                            class="about-image ms-lg-auto bg-light shadow-lg img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-5 col-md-7 col-12">
+                        <div class="custom-text-block">
+                            <h2 class="mb-0">Zilungile Mqoqi</h2>
+
+                            <p class="text-muted mb-lg-4 mb-md-4">CO-FOUNDER & EXECUTIVE DIRECTOR</p>
+
+                            <p>Zilungile has obtained her Master's degree in Chemical Engineering from the Cape Town University of Technology.</p>
+
+                            <p>She has worked with high school students as a tutor, tutoring Mathematics and Physical Sciences. She also holds 
+                                multiple certifications in research methodology and women in engineering, demonstrating her dedication to learning 
+                                and professional development 
+                            </p>
+                            <p class="quotes">
+                                "I am passionate about water management, conservation, and sustainability, and I enjoy serving communities through voluntary work".
+                            </p>
+
+                            <ul class="social-icon mt-4">
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-facebook"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-5 col-12">
+                            <img src="../images/Team/yandisa.jpeg"
+                                class="about-image ms-lg-auto bg-light shadow-lg img-fluid" alt="">
+                        </div>
+    
+                        <div class="col-lg-5 col-md-7 col-12">
+                            <div class="custom-text-block">
+                                <h2 class="mb-0">Yandisa Madinga</h2>
+    
+                                <p class="text-muted mb-lg-4 mb-md-4">FOUNDER & Chief Operating Officer</p>
+    
+                                <p>
+                                    Yandisa has obtained his Bachelor of Science degree in Computer Science, Computer Engineering and Applied Statistics
+                                    from the University of Cape Town.
+                                </p>
+    
+                                <p>
+                                    Yandisa leverages his expertise in software development and programming to create programs aimed at assisting learners who may lack access to essential career resources. 
+                                </p>
+                                <p class="quotes">
+                                    "I integrate my enthusiasm for technology and education with a genuine concern for learners and individuals, utilizing Isolam as a platform to contribute and make a positive impact where possible".
+                                </p>
+    
+                                <ul class="social-icon mt-4">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-twitter"></a>
+                                    </li>
+    
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-facebook"></a>
+                                    </li>
+    
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-instagram"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+<!--about ends here-->
+    </main>
+
+ <!--footer starts here-->
+ <div id="footer-placeholder"></div>
+ <!--footer ends here-->
+     <!-- JAVASCRIPT FILES -->
+     <script src="../js/jquery.min.js"></script>
+     <script src="../js/bootstrap.min.js"></script>
+     <script src="../js/jquery.sticky.js"></script>
+     <script src="../js/click-scroll.js"></script>
+     <script src="../js/counter.js"></script>
+     <script src="../js/custom.js"></script>
+     <script >
+         $.get("../shared components/navigation.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+ 
+        $.get("../shared components/footer.html", function(data){
+             $("#footer-placeholder").replaceWith(data);
+         });
+    </script>
+
+</body>
+
+</html>

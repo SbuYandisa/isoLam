@@ -217,6 +217,12 @@ strong {
   object-fit: cover;
 }
 
+.partner-img{
+  width: 500px;
+  height: auto;
+  border-radius: 50px;
+}
+
 .custom-block .custom-btn {
   border-radius: 0;
   display: block;
@@ -662,12 +668,33 @@ strong {
 }
 
 .featured-block-text {
-  color: var(--primary-color);
+  color: #051138;
   font-size: var(--h5-font-size);
   margin-top: 20px;
   transition: all 0.5s;
 }
 
+
+.info-container{
+  background-color: #FF6;
+  border-radius: 10px;
+  border: 2px solid #fffa5d;
+  box-shadow: 10px 3px #6c6c6d;
+}
+
+.vl{
+  border-left: 2px solid #717275;
+  height: 50px;
+}
+
+.uni-link{
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.uni-link:hover{
+  font-size: 22px;
+}
 
 /*---------------------------------------
   ABOUT              
@@ -973,10 +1000,6 @@ blockquote::before {
   position: relative;
   top: 10px;
   left: 10px;
-}
-
-#testimonial-carousel .carousel-title {
-  quotes: "“" "”" "‘" "’";
 }
 
 #testimonial-carousel .carousel-name {
@@ -1637,4 +1660,3 @@ blockquote::before {
   .about{
     width: 300px;
 }
-

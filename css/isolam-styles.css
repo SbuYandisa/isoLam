@@ -228,6 +228,11 @@ strong {
   display: block;
 }
 
+.student-p{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
 /*---------------------------------------
   PROGRESS BAR               
@@ -665,10 +670,11 @@ strong {
 
 .featured-block:hover .featured-block-text {
   margin-top: 0;
+  color: #000000;
 }
 
 .featured-block-text {
-  color: #051138;
+  color: #ecd400;
   font-size: var(--h5-font-size);
   margin-top: 20px;
   transition: all 0.5s;

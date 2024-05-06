@@ -40,7 +40,7 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #fae529;
+  --primary-color:                #D4AF37;
   --secondary-color:              #444343;
   --section-bg-color:             rgb(231, 231, 231);
   --site-footer-bg-color:         #2c2b2b;
@@ -129,7 +129,13 @@ h6 {
   font-size: var(--h6-font-size);
 }
 
-p {
+p{
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+}
+
+li{
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
@@ -211,11 +217,9 @@ strong {
 }
 
 .custom-block-image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+  border-radius: 0%;
+  width: 200px;
+} 
 
 .partner-img{
   width: 500px;
@@ -309,6 +313,25 @@ strong {
   line-height: 30px;
 }
 
+.alert{
+  width: 100%;
+  background-color: rgb(0, 255, 106);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  display: none;
+}
+
+/*-------------------------------
+Images style
+---------------------------------*/
+.programs-images{
+  border-radius: 20px;
+  width: 700px;
+  height: auto;
+}
 
 /*---------------------------------------
   AVATAR IMAGE - TESTIMONIAL, AUTHOR               
@@ -674,23 +697,10 @@ strong {
 }
 
 .featured-block-text {
-  color: #ecd400;
+  color: #000000;
   font-size: var(--h5-font-size);
   margin-top: 20px;
   transition: all 0.5s;
-}
-
-
-.info-container{
-  background-color: #FF6;
-  border-radius: 10px;
-  border: 2px solid #fffa5d;
-  box-shadow: 10px 3px #6c6c6d;
-}
-
-.vl{
-  border-left: 2px solid #717275;
-  height: 50px;
 }
 
 .uni-link{
@@ -713,9 +723,9 @@ strong {
 
 .about-image {
   border-radius: var(--border-radius-medium);
-  display: block;
-  width: 350px;
-  height: 400px;
+  display:block;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -754,17 +764,6 @@ strong {
   background: var(--secondary-color);
   position: relative;
   overflow: hidden;
-}
-
-.volunteer-section::after {
-  content: "";
-  background: var(--primary-color);
-  border-radius: 50%;
-  position: absolute;
-  bottom: -110px;
-  right: -80px;
-  width: 350px;
-  height: 350px;
 }
 
 .volunteer-form {
@@ -944,6 +943,13 @@ blockquote::before {
   overflow: hidden;
 }
 
+
+/*---------------------------------------
+table
+-----------------------------------------*/
+table, th, td{
+  border: 10px solid white;
+}
 
 /*---------------------------------------
   TESTIMONIAL CAROUSEL              
@@ -1534,8 +1540,8 @@ blockquote::before {
   }
 
   .about-image {
-    width: inherit;
-    height: 450px;
+    width: 300px;
+    height: 300px;
   }
 
   .volunteer-image {
@@ -1665,4 +1671,5 @@ blockquote::before {
   .custom-text-box,
   .about{
     width: 300px;
+  }
 }

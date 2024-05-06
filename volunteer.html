@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Isolam</title>
+    <!-- CSS FILES -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="/css/isolam-styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="nav-placeholder">
+    </div>
+    <main>
+        <section class="volunteer-section section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="text-white mb-4">Volunteer</h2>
+
+                        <form class="custom-form volunteer-form mb-5 mb-lg-0" action="https://formsubmit.co/madingayandisa@gmail.com" method="POST" role="form">
+                            <h3 class="mb-4">Become a volunteer today</h3>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <input type="text" name="volunteer-name" id="volunteer-name" class="form-control"
+                                        placeholder="Name and Surname" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <input type="email" name="volunteer-email" id="volunteer-email"
+                                        pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address"
+                                        required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <input type="text" name="volunteer-subject" id="volunteer-subject"
+                                        class="form-control" placeholder="Subject" required>
+                                </div>
+
+                            </div>
+
+                            <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message"
+                                placeholder="Comment (Optional)"></textarea>
+
+                            <button type="submit" class="form-control">Submit</button>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="Volunteer">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thank-you.html">
+
+                        </form>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <img src="/images/volunteering.jpg"
+                            class="volunteer-image img-fluid" alt="">
+
+                        <div class="custom-block-body text-center">
+                            <h4 class="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
+
+                            <p class="text-white">
+                                Engaging in volunteer opportunities with us provides the chance to contribute to realizing another 
+                                learner's aspirations. Our volunteering program offers skill enhancement, references for future endeavors, 
+                                and the opportunity to make a meaningful impact in various schools across South Africa. If you have an interest 
+                                in working with high school learners or administrative tasks, reach out to us, and we will help identify the ideal position for you.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+ <!--footer starts here-->
+ <div id="footer-placeholder"></div>
+ <!--footer ends here-->
+     <!-- JAVASCRIPT FILES -->
+     <script src="/js/jquery.min.js"></script>
+     <script src="/js/bootstrap.min.js"></script>
+     <script src="/js/jquery.sticky.js"></script>
+     <script src="/js/counter.js"></script>
+     <script src="/js/custom.js"></script>
+     <script >
+         $.get("/shared components/navigation.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+ 
+        $.get("/shared components/footer.html", function(data){
+             $("#footer-placeholder").replaceWith(data);
+         });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Isolam</title>
+    <!-- CSS FILES -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="/css/isolam-styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="nav-placeholder">
+    </div>
+    <main>
+<!--section 1 starts here-->
+<section class="cta-section section-padding section-bg" id="student">
+    <div class="container">
+        <h2 class="text-black mb-4">Learner Registration Form</h2>
+            <div class="row">
+                <hr>
+                <p class="student-p">
+                    Why Register?<br>
+                    <i class="bi bi-arrow-down-right-circle-fill"></i>
+                    We are dedicated to nurturing and empowering our learners every step of the way in their academic journey. 
+                    🌟 Serving as their steadfast support system, we offer invaluable guidance and insight into the academic realm. 
+                    💡 Fueled by genuine passion and determination, we proactively seek out avenues for our learners' growth and development, 
+                    consistently striving to uncover exciting opportunities that will propel them forward. 🚀
+                </p>
+                <hr>
+                <div class="col-lg-6 col-12">
+                    <form class="custom-form volunteer-form mb-5 mb-lg-0" action="https://formsubmit.co/madingayandisa@gmail.com" method="POST" role="form">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <input type="text" name="name" id="student-name" class="form-control"
+                                    placeholder="Name" required>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <input type="text" name="surname" id="student-surname" class="form-control"
+                                    placeholder="Surname" required>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <input type="text" name="number" id="student-number" class="form-control"
+                                    placeholder="Cell Number" required>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <input type="email" name="email" id="student-email"
+                                    pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address"
+                                    required>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <input type="text" name="grade" id="student-grade" class="form-control"
+                                    placeholder="Grade" required>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <input type="text" name="school" id="student-school"
+                                    class="form-control" placeholder="Your School Name"
+                                    required>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <select class="form-control form-select" aria-label="Default select example" name="province">
+                                    <option selected>Province</option>
+                                    <option value="Eastern Cape">Eastern Cape</option>
+                                    <option value="Free State">Free State</option>
+                                    <option value="Gautent">Gautent</option>
+                                    <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                                    <option value="Limpopo">Limpopo</option>
+                                    <option value="Mpumalanga">Mpumalanga</option>
+                                    <option value="Northen Cape">Northen Cape</option>
+                                    <option value="North West">North West</option>
+                                    <option value="Western Cape">Western Cape</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="New Student Registerded">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thank-you.html">
+
+                        <button type="submit" class="form-control">Submit</button>
+                    </form>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <img src="/images/student-register.jpg"
+                        class="volunteer-image img-fluid" alt="re">
+
+                    <div class="custom-block-body bi-text-left">
+                        <h4 class="text-dark mt-lg-3 mb-lg-3">Benefits</h4>
+
+                        <li>Unlimited access to our programs.</li>
+                        <li>Get assigned a personal mentor.</li>
+                        <li>Be the first to know about our events, opportunities, bursaries, etc.</li>
+                        <li>Get first hand assistance with university applications.</li>
+                        <li>Receive immediate and top-priority attention.</li>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>  
+<!--section 1 ends here-->
+        
+    </main>
+
+ <!--footer starts here-->
+ <div id="footer-placeholder"></div>
+ <!--footer ends here-->
+     <!-- JAVASCRIPT FILES -->
+     <script src="/js/jquery.min.js"></script>
+     <script src="/js/bootstrap.min.js"></script>
+     <script src="/js/jquery.sticky.js"></script>
+     <script src="/js/counter.js"></script>
+     <script src="/js/custom.js"></script>
+     <script >
+         $.get("/shared components/navigation.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+ 
+        $.get("/shared components/footer.html", function(data){
+             $("#footer-placeholder").replaceWith(data);
+         });
+    </script>
+
+</body>
+
+</html>

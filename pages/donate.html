@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Isolam</title>
+    <!-- CSS FILES -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="/css/isolam-styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="nav-placeholder">
+    </div>
+    <main>
+
+        <section class="donate-section">
+            <div class="section-overlay"></div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mx-auto">
+                        <form class="custom-form donate-form" action="#" method="get" role="form">
+                            <h3 class="mb-4">Make a donation</h3>
+
+
+                                <div class="col-lg-6 col-12 form-check-group">
+                                    <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon1">R</span>
+
+                                        <input type="text" class="form-control" placeholder="Amount in rands"
+                                            aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-12">
+                                    <h5 class="mt-1">Personal Info</h5>
+                                </div>
+
+                                <div class="col-lg-6 col-12 mt-2">
+                                    <input type="text" name="donation-name" id="donation-name" class="form-control"
+                                        placeholder="Name and Surname" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12 mt-2">
+                                    <input type="email" name="donation-email" id="donation-email"
+                                        pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address"
+                                        required>
+                                </div>
+
+                                <div class="col-lg-12 col-12 mt-2">
+                                    <p>
+                                        <b>Our Banking Details:</b><br>
+                                        Bank Name: First National Bank (FNB)<br>
+                                        Branch Code: 250655<br>
+                                        Account Number: 63083653402<br>
+                                        Reference: Name&Surname-IsolamNPO
+                                    </p>
+                                    <button type="submit" class="form-control mt-4">Submit Donation</button>
+                                </div>
+                                <p style="color: #fae529; font-family:Verdana, Geneva, Tahoma, sans-serif;"><i><b>"BRIDGING THE GAP"</b></i></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <!--footer starts here-->
+   <div id="footer-placeholder"></div>
+    <!-- JAVASCRIPT FILES -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script src="/js/counter.js"></script>
+    <script src="/js/custom.js"></script>
+    <script >
+        $.get("/shared components/navigation.html", function(data){
+           $("#nav-placeholder").replaceWith(data);
+       });
+
+       $.get("/shared components/footer.html", function(data){
+            $("#footer-placeholder").replaceWith(data);
+        });
+   </script>
+
+</body>
+
+</html>
